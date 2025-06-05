@@ -1,0 +1,22 @@
+.footer {
+  background: #004080; /* Medium-Dark Blue */
+  color: #ffffff; /* White text */
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+}
+
+.footer:hover {
+  background-color: #00d8ff; /* Bright Cyan Blue */
+  transform: scale(1.05);
+  box-shadow: 0 0 12px #00d8ff;
+}
+
+@media (max-width: 768px) {
+  .header nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+}
